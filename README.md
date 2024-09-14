@@ -6,9 +6,6 @@
 
 At **Unimice**, we create new private Minecraft servers regularly. Whether you prefer modded, plugin-based, or vanilla servers, we have something for everyone. Our servers have been running for over 3 years, offering the best custom modpacks and stable hosting.
 
-### Mascot: 🐭 Myska the Mouse
-Meet Myska, our beloved mascot who symbolizes the fun and welcoming community that **Unimice** is all about.
-
 ## 🌟 Our Key Features
 
 - **✌️ No Filler Promises:** We skip the cliché features like “friendly community” and “stable hosting”—you know we’ve got that covered.
