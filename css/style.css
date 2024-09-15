@@ -1,0 +1,324 @@
+/* Root elements */
+:root {
+  --background: #111111;
+  --element: #181818;
+  --text: #ffffee;
+  --min: 280px;
+  --all: 100%;
+}
+
+::-webkit-scrollbar {
+  width: 12px;
+  height: 12px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+* {
+  scrollbar-width: thin;
+  scrollbar-color: #faf5ef #131313;
+}
+
+html {
+  scroll-behavior: smooth;
+  transition: all .3s ease;
+}
+
+@font-face {
+  font-family: "Magnet";
+  src: url(Magnet1.ttf);
+  font-display: swap;
+}
+
+body {
+  font-family: "Magnet", Arial, sans-serif;
+  background-color: var(--background);
+  color: var(--text);
+  margin: 0;
+  font-family: Magnet;
+}
+/* Root elements */
+
+
+
+/* Inputs forms links and buttons */
+input {
+  all: unset;
+  outline: none;
+  border:none;
+  background-image:none;
+  background-color:transparent;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;  
+  border-style: double;
+}
+
+input[type='radio']:checked:after {
+    width: 15px;
+    height: 15px;
+    background-color: var(--text);
+    content: '';
+    border-radius: 50%;
+    display: block;
+    visibility: visible;
+}
+
+button {
+  all: unset;
+  outline: none;
+  border:none;
+  background-image:none;
+  background-color:transparent;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;  
+  border-style: double;
+}
+
+a {
+  text-decoration: none;
+  color: unset;
+}
+
+a:hover {
+  color: violet;
+}
+
+input {
+  color: unset;
+  background-color: var(--background);
+  border-radius: 25px;
+  display: block;
+  margin: 25px;
+  padding: 15px 6%;
+  justify-content: space-around;
+  font-size: 20px;
+  text-align: center;
+  font-family: "Magnet", Arial, sans-serif;
+  border-width: 2px;
+  border-color: var(--text);
+}
+
+.button {
+  background-color: var(--element);
+  border-radius: 25px;
+  display: block;
+  margin: 25px 0;
+  padding: 15px 6%;
+  font-size: 20px;
+  text-align: center;
+  color: unset;
+}
+
+form {
+  margin: 0;
+  display: contents;
+}
+/* Inputs forms links and buttons */
+
+
+
+img {
+  border-radius: 25px;
+  object-fit: cover;
+  width: 100%;
+}
+
+.f12 {
+  font-size: 12px;
+}
+
+.m5 {
+  margin-left: 5%;
+}
+
+.separator4 {
+  padding-bottom: 70px;
+}
+
+.textalign {
+    text-align: center;
+}
+
+.marginauto {
+    margin-left: auto;
+    margin-right: auto;
+    width: fit-content;
+}
+
+/* Main containers */
+.page-holder {
+  display: grid;
+  justify-content: space-around;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 1% 0;
+  padding: 1%;
+  max-width: 1500px;
+}
+
+.third {
+  width: 27%;
+  background-color: var(--element);
+  border-radius: 25px;
+  padding: 2%;
+  margin: 15px;
+  min-width: var(--min);
+}
+
+.double {
+  width: 60%;
+  background-color: var(--element);
+  border-radius: 25px;
+  padding: 2%;
+  margin: 15px;
+  min-width: var(--min);
+}
+
+.one {
+  width: 87%;
+  background-color: var(--element);
+  border-radius: 25px;
+  padding: 2%;
+  margin: 15px;
+  min-width: var(--min);
+}
+/* Main containers */
+
+
+
+/* ANIMATIONS */
+.glow {
+  position: relative;
+  z-index: 0;
+}
+
+.glow:before {
+  content: '';
+  position: absolute;
+  top: -2px;
+  left: -2px;
+  right: -2px;
+  bottom: -2px;
+  border-radius: 27px;
+  background: linear-gradient(45deg, blue, indigo, violet);
+  background-size: 400% 400%;
+  z-index: -1;
+  animation: gradient 15s ease infinite;
+}
+
+.glow:after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  border-radius: 25px;
+  background: var(--background);
+  z-index: -1;
+}
+
+.rotator {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  transform-style: preserve-3d;
+}
+
+.rotator:hover {
+  transform: rotateY(15deg) rotateX(10deg);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+
+  50% {
+    background-position: 100% 50%;
+  }
+
+  100% {
+    background-position: 0% 50%;
+  }
+}
+/* ANIMATIONS */
+
+
+
+.image {
+  width: 125px;
+  border-radius: 25px;
+}
+
+.text {
+  width: 150px;
+  margin: 15px;
+  padding: 0.5%;
+  border-radius: 25px;
+  font-size: 14px;
+  text-align: center;
+  justify-content: space-around;
+}
+
+.footer {
+  background-color: var(--element);
+  padding: 20px;
+  text-align: center;
+}
+
+.hide-on-mobile {
+  
+}
+
+@media only screen and (max-width: 1100px) {
+  .hide-on-mobile {
+    display: none;
+  }
+  
+  h1 {
+    font-size: 20px;
+  }
+
+  .separator4 {
+    padding-bottom: 14%;
+  }
+
+  .one {
+    padding: 4%;
+    width: 100%
+  }
+
+  .double {
+    padding: 4%;
+    width: 100%
+  }
+
+  .third {
+    padding: 4%;
+    width: 100%
+  }
+  
+  input {
+    padding: 5px 0;
+    width: 90%;
+    margin-bottom: 15px;
+  }
+}
