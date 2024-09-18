@@ -18,6 +18,37 @@
       <div class="header-element"><a href="https://unimice.ru/staff">Персонал</a></div>
       <div class="header-element"><a href="https://unimice.ru/faq">FAQ</a></div>
       <div class="header-element"><a href="https://unimice.ru/rules">Правила</a></div>
+      <div class="header-element" id="toggleStylesheet" style="cursor: pointer"></div>
+        <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const lightStylesheet = document.getElementById('light');
+            const styleStylesheet = document.getElementById('style');
+            const toggleButton = document.getElementById('toggleStylesheet');
+        
+            // Function to toggle between stylesheets
+            function toggleStylesheet() {
+                if (lightStylesheet.disabled) {
+                    lightStylesheet.disabled = false;
+                    styleStylesheet.disabled = true;
+                    toggleButton.textContent = 'Свет';
+                } else {
+                    lightStylesheet.disabled = true;
+                    styleStylesheet.disabled = false;
+                    toggleButton.textContent = 'Тьма';
+                }
+            }
+        
+            // Initialize the button based on the current state
+            if (lightStylesheet.disabled) {
+                toggleButton.textContent = 'Свет';
+            } else {
+                toggleButton.textContent = 'Тьма';
+            }
+        
+            // Add click event listener to the button
+            toggleButton.addEventListener('click', toggleStylesheet);
+        });
+        </script>
 
       <?php
         if (isset($_SESSION["name"])) {
