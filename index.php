@@ -117,22 +117,22 @@
 
         <a href="https://unimice.ru/auth" class="third rotator" itemprop="step" itemscope itemtype="http://schema.org/HowToStep">
           <p itemprop="name">1️⃣ Шаг 1: Авторизуйтесь на сайте</p>
-          <p itemprop="text">Создайте ваш профиль на сайте кликнув на этот шаг!</p>
+          <p itemprop="text">Создайте ваш профиль на сайте, кликнув на этот шаг!</p>
         </a>
         
         <a href="https://unimice.ru/form" class="third rotator" itemprop="step" itemscope itemtype="http://schema.org/HowToStep">
           <p itemprop="name">2️⃣ Шаг 2: Заполните анкету</p>
-          <p itemprop="text">Заполните анкету нажав на этот шаг :)</p>
+          <p itemprop="text">Заполните анкету, нажав на этот шаг :)</p>
         </a>
         
         <a href="https://unimice.ru/profile" class="third rotator" itemprop="step" itemscope itemtype="http://schema.org/HowToStep">
           <p itemprop="name">3️⃣ Шаг 3: Ожидайте одобрения</p>
-          <p itemprop="text">Нажав на этот шаг вы попадете в личный кабинет, где можно отслеживать статус анкеты</p>
+          <p itemprop="text">Нажав на этот шаг, вы попадете в личный кабинет, где можно отслеживать статус анкеты</p>
         </a>
         
         <a href="https://discord.gg/unimice" class="third rotator" itemprop="step" itemscope itemtype="http://schema.org/HowToStep">
           <p itemprop="name">4️⃣ Шаг 4: Скачайте лаунчер</p>
-          <p itemprop="text">После одобрения анкеты перейдите в наш Discord кликнув на этот шаг и скачайте лаунчер в канале #лаунчер</p>
+          <p itemprop="text">После одобрения анкеты перейдите в наш Discord, кликнув на этот шаг, и скачайте лаунчер в канале #лаунчер</p>
         </a>
         
         <a href="https://mousearth.ru" class="third rotator" itemprop="step" itemscope itemtype="http://schema.org/HowToStep">
