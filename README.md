@@ -1,4 +1,4 @@
-# Unimice Minecraft Servers
+# Unimice
 
 🔮 **Unimice** is a network of private, pirate Minecraft servers with mods and plugins—completely free, with no donations required. Explore our servers and join the adventure!
 
