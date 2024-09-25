@@ -59,5 +59,5 @@ Our custom **Unimice Launcher** lets you access the servers from a non-premium v
 This website was handcrafted using pure PHP (no frameworks), with a lot of help from God and ChatGPT.
 
 ## License
-This project is licensed under [MIT License](#).
+This project is licensed under MIT License.
 
