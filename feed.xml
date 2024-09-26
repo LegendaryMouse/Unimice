@@ -5,7 +5,7 @@
      version="2.0">
     <channel>
         <!-- Информация о сайте-источнике -->
-        <title>Приватные пиратские сервера Майнкрафт с модами без доната</title>
+        <title>Приватные сервера Майнкрафт без доната</title>
         <link>https://unimice.ru</link>
         <description>UM постоянно создает новые приватные Майнкрафт сервера. Причем как сервера с модами и плагинами, так и ванильные сервера без модов</description>
         <language>ru</language>
@@ -15,7 +15,7 @@
             <turbo:extendedHtml>true</turbo:extendedHtml>
             <link>https://unimice.ru/#main</link>
             <turbo:source>https://unimice.ru/#main</turbo:source>
-            <turbo:topic>Приватные пиратские сервера Майнкрафт с модами без доната</turbo:topic>
+            <turbo:topic>Приватные сервера Майнкрафт без доната</turbo:topic>
             <pubDate>Wed, 28 Aug 2024 08:43:31 +0000</pubDate>
             <author>Мышка - маскот проекта Unimice</author>
             <metrics>
