@@ -21,10 +21,10 @@ At **Unimice**, we create new private Minecraft servers regularly. Whether you p
 Follow these simple steps to start playing:
 
 1. **Step 1:** [Authtorize at our website](https://unimice.ru) using your Discord account.
-2. **Step 2:** [Fill out the application form](#) to join our private servers.
+2. **Step 2:** [Fill out the application form](https://unimice.ru/form) to join our private servers.
 3. **Step 3:** Wait for approval and track your status in the member dashboard.
-4. **Step 4:** Join our [Discord](#) and download the launcher in the #лаунчер channel.
-5. **Step 5:** Register at [mousearth.ru](#).
+4. **Step 4:** Join our [Discord](https://discord.gg/unimice) and download the launcher in the #лаунчер channel.
+5. **Step 5:** Register at [mousearth.ru](https://mousearth.ru).
 6. **Step 6:** Log into the launcher using your account.
 7. **Step 7:** Success! You're now ready to join servers like **Mouse Earth** or **Mouse Moon**.
 
