@@ -20,7 +20,7 @@ At **Unimice**, we create new private Minecraft servers regularly. Whether you p
 
 Follow these simple steps to start playing:
 
-1. **Step 1:** [Log in to our website](#) and create your profile.
+1. **Step 1:** [Authtorize at our website](https://unimice.ru) using your Discord account.
 2. **Step 2:** [Fill out the application form](#) to join our private servers.
 3. **Step 3:** Wait for approval and track your status in the member dashboard.
 4. **Step 4:** Join our [Discord](#) and download the launcher in the #лаунчер channel.
